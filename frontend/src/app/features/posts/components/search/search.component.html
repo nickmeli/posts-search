@@ -1,0 +1,15 @@
+<p class="lead">Insert the desired post Id and press 'Load Post'.</p>
+<div class="wrapper">
+  <div id="formContent">
+    <div class="alert alert-warning" role="alert" *ngIf="hasErrors">
+      {{ errorMessate }}
+    </div>
+    <form [formGroup]="postFormGroup">
+      <div class="mb-3">
+        <label for="postId" class="form-label">Post Id</label>
+        <input type="text" class="form-control" id="postId" formControlName="postId">
+      </div>
+      <button type="submit" class="btn btn-primary" (click)="getPost()">Load Post</button>
+    </form>
+  </div>
+</div>

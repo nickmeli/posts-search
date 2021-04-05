@@ -1,0 +1,25 @@
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+#formContent {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  padding: 30px;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3);
+  margin: auto;
+  text-align: left;
+}
+
+
+.return-button {
+  width: 100%;
+}
