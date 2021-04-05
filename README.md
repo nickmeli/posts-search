@@ -1,9 +1,9 @@
 # Posts Search Example
 ## Description
 
-A simple example of Nest/Angular/Ngrx. The project containes 3 folders.
-One containing the Nest backend (backend/), one containing the frontend (frontend/)
-and one containing the shared schema (shared/)
+A simple example of Nest/Angular/Ngrx. The project containes 3 folders,
+one containing the Nest backend (backend/), one containing the Angular/Ngrx frontend (frontend/)
+and one containing the shared schema (shared/). There is one hardcoded user, username: admin/password: 12345
 
 ## Installation
 
