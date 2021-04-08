@@ -31,7 +31,6 @@ export class LoginComponent implements OnInit {
       password: this.loginFormGroup.value.password
     };
 
-    console.log('======= Request: ', loginRequest);
     this.authFacade.login(loginRequest);
   }
 }

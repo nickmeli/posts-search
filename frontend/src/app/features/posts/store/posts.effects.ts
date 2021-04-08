@@ -38,7 +38,6 @@ export class PostsEffects {
       this.actions$.pipe(
         ofType(PostsActions.loadPostFailure),
         switchMap((e : {e: any}) => {
-          console.log('========= Post Error: ', e); // ToDo shwo notification
           return EMPTY;
         }),
       ),

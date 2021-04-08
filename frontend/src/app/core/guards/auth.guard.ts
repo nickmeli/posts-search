@@ -17,7 +17,6 @@ export class AuthGuard implements CanActivate {
     if (!!this.cookieService.get('posts-sid')) {
       return true;
     } else {
-      console.log('========= Navigate to login')
       this.router.navigate(['/login']);
       return false;
     }
